@@ -1,0 +1,30 @@
+// Experiment 2
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main ()
+{
+	float mass;
+	float density;
+
+	cout << "Enter the value of the mass in grams of the object:" << endl;
+	cin >> mass;
+
+	cout << " " << endl;
+	cout << " " << endl;
+
+	cout << "Enter the value of density in grams per cubic centimeters of the object: " << endl;
+	cin >> density;
+
+	cout << " " << endl;
+	cout << " " << endl;
+
+	cout << "The volume of the object is :" << mass / density << endl;
+
+	_getch ();
+	return 0;
+}
